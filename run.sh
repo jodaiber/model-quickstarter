@@ -1,6 +1,8 @@
 #!/bin/bash
 
 wget -q https://raw.github.com/dbpedia-spotlight/dbpedia-spotlight/master/bin/index_db.sh
+chmod +x index_db.sh
+
 mkdir wdir
 mkdir models
 
@@ -15,6 +17,7 @@ for l in en de nl ; do
     wget -q http://opennlp.sourceforge.net/models-1.5/$l-ner-person.bin
     wget -q http://opennlp.sourceforge.net/models-1.5/$l-ner-location.bin
     wget -q http://opennlp.sourceforge.net/models-1.5/$l-ner-organization.bin
+    cd ..
 done
 
 echo "Indexing..."
