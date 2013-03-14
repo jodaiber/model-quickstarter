@@ -22,9 +22,9 @@ done
 
 echo "Indexing..."
 #Using OpenNLP models:
-./index_db.sh -o en wdir en_US en/stopwords.list EnglishStemmer models/en
-./index_db.sh -o de wdir de_DE de/stopwords.list GermanStemmer  models/de
-./index_db.sh -o nl wdir nl_NL nl/stopwords.list DutchStemmer   models/nl
+./index_db.sh -o en wdir en_US en/stopwords.list English models/en
+./index_db.sh -o de wdir de_DE de/stopwords.list German  models/de
+./index_db.sh -o nl wdir nl_NL nl/stopwords.list Dutch   models/nl
 
 #No OpenNLP models:
-./index_db.sh wdir fr_FR fr/stopwords.list FrenchStemmer models/fr
+./index_db.sh wdir fr_FR fr/stopwords.list French models/fr
