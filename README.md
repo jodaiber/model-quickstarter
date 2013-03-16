@@ -1,4 +1,4 @@
-Quickstarter for DB-backed DBpedia Spotlight models
+Quickstarter for DBpedia Spotlight models
 ===================================================
 
 You can use this tool for creating models of DBpedia Spotlight in your language.
