@@ -7,10 +7,10 @@ This script requires Apache Hadoop and Apache Pig, for more information see [thi
 
 If you have OpenNLP models, add them to your language folder and add the following line to run.sh (example for Dutch):
 
-    ./index_db.sh -o nl wdir nl_NL nl/stopwords.list DutchStemmer   models/nl
+    ./index_db.sh -o nl wdir nl_NL nl/stopwords.list Dutch models/nl
 
 This will create a Spotlight model in `models/nl`. If you do not have OpenNLP models, only add a stopwords file to your 
 language folder and add the following to run.sh:
 
 
-    ./index_db.sh wdir fr_FR fr/stopwords.list FrenchStemmer models/fr
+    ./index_db.sh wdir fr_FR fr/stopwords.list French models/fr
