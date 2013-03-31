@@ -5,7 +5,7 @@ You can use this tool for creating models of DBpedia Spotlight in your language.
 
 This script requires Apache Hadoop and Apache Pig, for more information see [this guide](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki/Internationalization-%28DB-backed-core%29).
 
-Tested with versions Apache Pig version 0.10.0 and Hadoop 1.1.0, as well as the default Pig and Hadoop on AWS.
+**Tested with Apache Pig version 0.10.0 and Hadoop 1.1.0, as well as the default Pig and Hadoop on AWS.**
 
 If you have OpenNLP models, add them to your language folder and add the following line to run.sh (example for Dutch):
 
