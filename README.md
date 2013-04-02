@@ -17,6 +17,10 @@ language folder and add the following to run.sh:
 
     ./index_db.sh wdir fr_FR fr/stopwords.list French models/fr
 
+## Locales and language codes
+
+The locales used in `run.sh` are the locales supported by the `java.text` package. See the list of supported locales [here](http://www.oracle.com/technetwork/java/javase/locales-137662.html).
+
 
 ## Running on Amazon EC2
 
