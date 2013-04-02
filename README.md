@@ -16,3 +16,8 @@ language folder and add the following to run.sh:
 
 
     ./index_db.sh wdir fr_FR fr/stopwords.list French models/fr
+
+
+## Running on AWS
+
+...
