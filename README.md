@@ -20,4 +20,4 @@ language folder and add the following to run.sh:
 
 ## Running on AWS
 
-Some of the pig jobs require a significant amount of memory, so we recommend to run with nodes with at least 8GB of memory and the bootstrap action for memory-intensive job flows.
+Some of the pig jobs require a significant amount of memory, so we recommend to run with nodes with at least 8GB of memory and the bootstrap action for memory-intensive job flows. The master nodes performs the post-processing of the data, so it must have enough memory (for indexing English, we recommend 24GB-32GB).
