@@ -15,4 +15,4 @@ export M2_HOME=/opt/tools/apache-maven-3.0.4
 export M2=/opt/tools/apache-maven-3.0.4/bin
 export PATH=/opt/tools/apache-maven-3.0.4/bin:$PATH
 mvn --version
-echo -e "export MAVEN_HOME=/opt/tools/apache-maven-3.0.4 \n export M2_HOME=/opt/tools/apache-maven-3.0.4 \n export M2=/opt/tools/apache-maven-3.0.4/bin \n export PATH=/opt/tools/apache-maven-3.0.4/bin:$PATH" >> ~/.bashrc
+echo -e "export MAVEN_HOME=/opt/tools/apache-maven-3.0.4 \n export M2_HOME=/opt/tools/apache-maven-3.0.4 \n export M2=/opt/tools/apache-maven-3.0.4/bin \n export PATH=/opt/tools/apache-maven-3.0.4/bin:\$PATH" >> ~/.bashrc
