@@ -6,7 +6,7 @@ chmod +x index_db.sh
 mkdir wdir
 mkdir models
 
-mvn_version=`mvn -version | grep "Apache Maven" | sed -r "s/Apache Maven (\S+).+/\1/"`
+mvn_version=`mvn -version | grep "Apache Maven" | sed -r "s/Apache Maven (\S+).*/\1/"`
 if [[ "$mvn_version" > "3.0.0" ]]; then
    echo "Maven 3 ok."
 else         
